@@ -4,11 +4,11 @@ inputset.className="inputBoxSet"
 var inputbox = document.createElement("input");
 inputbox.id="inputdata";
 
-var button = document.createElement("button");
-button.innerText="Search";
+var section = document.createElement("section");
+section.innerText="Search";
 
 inputset.appendChild(inputbox);
-inputset.appendChild(button);
+inputset.appendChild(section);
 
 document.body.appendChild(inputset);
 
